@@ -1,1 +1,7 @@
-# PBE_4a_N_2021_2
+## Programação Back-End
+* **Dia:** Quarta-Feira 
+* **Período:** Noite
+
+## Prof. Hebert Bratefixe Alquimim
+
+e-mail: [hebert@uni9.pro.br](mailto:hebert@uni9.pro.br)
