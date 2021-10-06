@@ -1,5 +1,7 @@
 <?php
 $senha=isset($_GET["senha"])?$_GET["senha"]:"";
+
+
 // echo $senha;
 $cont=0;
 $cad_senha="123@mudar";
