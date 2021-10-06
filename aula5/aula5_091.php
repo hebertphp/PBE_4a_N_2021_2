@@ -1,15 +1,13 @@
 <?php
-$i=0; // inicialização do nosso contador;
+$i=7; // inicialização do nosso contador;
 do {
   echo $i . "<br> ";
-  $i++; // incremento do contador
+  $i+=2; // contador
 } while ($i < 5);
 echo "Valor da variável i = $i;"
 /*
 Saída:
-
-
-
-Valor da variável i = ????
+7
+Valor da variável i = 9
 */
 ?>
