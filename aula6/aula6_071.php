@@ -2,10 +2,12 @@
 /*
 Desafio:
 
-Montar uma variável do tipo array, bidimencional onde a primeira
+Montar uma variável do tipo array, bidimensional onde a primeira
 dimensão é numérica e a segunda dimensão é um array associativo
 para guardar valores de uma aluno como nome, ra, nota.
 
+Exemplo:
+echo $aluno[0]["nome"];
 */
 
 $aluno = array(
