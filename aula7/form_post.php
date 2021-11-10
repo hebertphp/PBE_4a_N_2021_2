@@ -3,7 +3,10 @@
 </head>
 <body>
 <form method="post" action="post.php">
-Nome:<input type="text" name="txt_nome" id="txt_nome"><br>
-E-mail:<input type="text" name="txt_email" id="txt_email"><br>
+<label for="txt_nome">Nome:</label>    
+<input type="text" name="txt_nome" id="txt_nome"><br>
+
+<label for="txt_email">E-mail:</label>
+<input type="text" name="txt_email" id="txt_email"><br>
 <input type="submit">
 </form></body></html>

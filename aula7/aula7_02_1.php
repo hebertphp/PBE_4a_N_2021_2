@@ -1,4 +1,5 @@
 <?php
+//phpinfo();
 echo "Informações do navegador/SO: ".$_SERVER['HTTP_USER_AGENT'];
 echo "<br>Nome do arquivo: " . $_SERVER['PHP_SELF'];
 echo "<br>Method: ".$_SERVER["REQUEST_METHOD"];
