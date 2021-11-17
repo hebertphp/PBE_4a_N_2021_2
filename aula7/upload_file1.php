@@ -5,7 +5,6 @@ $dir="./img/";
 if(!is_dir($dir)){
      mkdir($dir, 0700);
 }
-
 $arq=array(
     "nome"=>$_FILES["file"]["name"],
     "tipo"=>$_FILES["file"]["type"],
