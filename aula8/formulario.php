@@ -7,8 +7,16 @@
 </head>
 <body>
     <form action="recebe.php" method="post">
-        <label for="nome">Nome</label>  <input type="text" name="nome" id="nome">
-        <input type="submit">
+        <pre>
+        <label for="nome">Nome</label>  <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required> *
+        
+        Senha <input type="password" name="senha" required> *
+
+        Cep   <input type="text" name="cep" id="cep" value="05020-123" >
+
+              <input type="hidden" name="cidade" value="São Paulo">     
+              <input type="submit">
+        </pre>
     </form>
 </body>
 </html>
