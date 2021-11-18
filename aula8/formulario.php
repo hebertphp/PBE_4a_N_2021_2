@@ -14,7 +14,17 @@
 
         Cep   <input type="text" name="cep" id="cep" value="05020-123" >
 
-              <input type="hidden" name="cidade" value="São Paulo">     
+              <input type="hidden" name="cidade" value="São Paulo">   
+              
+        Qual sistema operacional você usa?
+            
+            <input type="checkbox" name="windows" value="windows" checked> Windows
+            <input type="checkbox" name="linux"   value="linux"> Linux
+
+        Você está conectado na rede 4G nesse momento?
+            <input type="radio" name="rede_4g" value="sim"> Sim 
+            <input type="radio" name="rede_4g" value="não"> Não
+        
               <input type="submit">
         </pre>
     </form>
