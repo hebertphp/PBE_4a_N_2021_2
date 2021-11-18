@@ -1,3 +1,8 @@
+<?php
+$uf=array("RN","AM","MG","ES","RJ","SP","BA","TO","PA","PR","RS","SC");
+sort($uf);
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,11 +28,17 @@
 
         Você está conectado na rede 4G nesse momento?
             <input type="radio" name="rede_4g" value="sim"> Sim 
-            <input type="radio" name="rede_4g" value="não" > Não
+            <input type="radio" name="rede_4g" value="não"> Não
         
-        Selecione o UF
-            
-              <input type="submit">
+        Selecione o UF <select name="uf">   
+        <?php
+          foreach($uf as $pos=>$valor)
+            echo "<option value='$valor'>$valor</option>";
+        ?>
+        </select>    
+        
+        Digite sua observação <textarea name="obs">Digite..</textarea>
+              <input type="submit"> <input type="reset">
         </pre>
     </form>
 </body>
