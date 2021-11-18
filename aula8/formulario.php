@@ -23,8 +23,10 @@
 
         Você está conectado na rede 4G nesse momento?
             <input type="radio" name="rede_4g" value="sim"> Sim 
-            <input type="radio" name="rede_4g" value="não"> Não
+            <input type="radio" name="rede_4g" value="não" > Não
         
+        Selecione o UF
+            
               <input type="submit">
         </pre>
     </form>
