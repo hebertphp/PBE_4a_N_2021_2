@@ -1,5 +1,5 @@
 <script>
-document.cookie = "js_cookie=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+document.cookie = "js_cookie=; expires=Thu, 01 Jan 1970 00:00:00 'GMT'";
 </script>
 <?php
 setcookie("teste");
